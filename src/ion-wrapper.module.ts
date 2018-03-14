@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
-
+import { IonWrapperComponent } from './ion-wrapper';
 
 @NgModule({
-  providers: [
-    
-  ],
   declarations: [
-    
+    IonWrapperComponent
   ],
   exports: [
-    
+    IonWrapperComponent
   ]
 })
 export class IonWrapperModule {
