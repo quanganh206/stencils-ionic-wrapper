@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quanganh206/angular-library-seed.git"
+    "url": "https://github.com/quanganh206/stencils-ionic-wrapper.git"
   },
   "bugs": {
-    "url": "https://github.com/trekhleb/angular-library-seed/issues"
+    "url": "https://github.com/trekhleb/stencils-ionic-wrapper/issues"
   },
-  "homepage": "https://github.com/trekhleb/angular-library-seed#readme",
+  "homepage": "https://github.com/trekhleb/stencils-ionic-wrapper#readme",
   "scripts": {
     "build": "npm run build:esm && npm run build:umd",
     "build:esm": "gulp inline-templates && npm run ngcompile",
@@ -50,8 +50,6 @@
     "postversion": "git push && git push --tags",
     "prebuild": "rimraf dist tmp",
     "prebuild:watch": "rimraf dist tmp",
-    "prepublishOnly": "npm run ci",
-    "preversion": "npm run ci",
     "test": "karma start",
     "test:watch": "karma start --auto-watch --no-single-run",
     "tslint": "tslint"
